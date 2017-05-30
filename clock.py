@@ -2,9 +2,6 @@ class Clock:
 
     def __init__(self, hours, minutes):
         """Creates a clock that displays the time based on user input of hours and minutes"""
-        
-        assert (isinstance(hours, int))
-        assert (isinstance(minutes, int))
 
         self.hours = hours
         self.minutes = minutes
